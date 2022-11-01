@@ -1,0 +1,170 @@
+    /* mobile and tablet */
+    @media (max-width : 1023px) {
+        .hide-on-mobile-tablet {
+            display: none;
+        }
+
+        .scroll-on-tablet-mobile {
+            overflow: hidden;
+            overflow-x: auto;
+        }
+
+        .scroll-on-tablet-mobile::-webkit-scrollbar {
+            width: 0;
+        }
+
+        .header-navbar__mobile {
+            display: block;
+        }
+
+        .header-search {
+            width: 240px;
+        }
+
+
+        .container-footer__home {
+            padding-top: 20px;
+        }
+        
+        .mt-20 {
+            margin-top: 20px;
+        }  
+
+        .footer-transaction {
+            margin-left: -8px;
+        }
+
+        .footer-transaction__img-box {
+            margin-bottom: 20px;
+        }
+
+        .owl-dots {
+            right: 15px;
+            bottom: 15px;
+        }
+
+        .content__location--list {
+            width: 1482px;
+        }
+
+        .content__location--img__title {
+            font-size: 2rem;
+        }
+
+        .content__location--item {
+            width: 175px;
+            height: 240px; 
+            margin-right: 8px;
+        }
+
+        .content__location--img__name {
+            top: 160px;
+            left: 10px;
+        }
+
+        .content__suggest--list {
+            width: 1806px;
+        }
+
+        .content__suggest--item {
+            width: 250px;
+            margin-right: 8px;
+        }
+
+        .content__suggest--img {
+            height: 160px;
+        }
+
+        .content__discover--list {
+            width: 4656px;
+        }
+        
+        .content__discover--item {
+            width: 300px;
+            height: 210px;
+            margin-right: 8px;
+        }
+
+        .content__discover--info-homestay {
+            height: 80px;
+        }
+
+        .content__user-manual--list {
+            width: 1550px;
+        }
+
+        .content__user-manual--item {
+            width: 300px;
+            height: 170px;
+            margin-right: 8px;
+        }
+
+        .introduce-app__logo {
+            width: 280px;
+        }
+
+        .introduce-app__header {
+            font-size: 2.4rem;
+        }
+
+    }
+
+
+    /*tablet */
+    @media (min-width : 740px) and (max-width : 1023px) {
+        .hide-on-tablet {
+            display: none;
+        }
+
+        .introduce-app__svg {
+            width: 140px;
+        }
+       
+        .header-datepicker {
+            right: -245px;
+        }
+        
+    }
+
+
+    /* mobile */
+    @media (max-width : 739px) {
+        .hide-on-mobile {
+            display: none;  
+        }
+
+        .header,
+        .container,
+        .footer {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .header-search-box {
+            margin-left: 10px;
+        }
+
+        .header-date,
+        .header-customer {
+            display: none;
+        }
+
+        .container {
+            margin-top: calc(var(--height-header) + 30px);
+        }
+
+        .introduce-app__qr-code {
+            width: 180px;
+        }
+       
+        .introduce-app__svg {
+            width: 100px;
+        } 
+
+        .content--des__see-more {
+            width: 110px;
+        }
+        
+        
+    
+    }

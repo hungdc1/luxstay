@@ -1,0 +1,100 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+    --height-header: 80px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.option__footer-btn {
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1px 6px;
+    cursor: pointer;
+}
+
+.content-btn {
+    --btn-height: 54px;
+    position: absolute;
+    background-color: var(--white-color);
+    width: var(--btn-height);
+    height: var(--btn-height);
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.content-btn i {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: var(--btn-height);
+}
+
+.content-btn:hover { 
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-enable:hover i {
+    color: #ff0000;
+}
+
+.btn-disable {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+@keyframes showUp {
+    from {
+        opacity: 0;
+        transform: scaleY(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+};
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
