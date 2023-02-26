@@ -1148,10 +1148,8 @@
     margin: auto;
 }
 
-.introduce-app__qr-code-img, 
-.introduce-app__svg,
-.introduce-app__svg,
-.introduce-app__svg {
+.introduce-app__qr-code-img,
+.introduce-app__img {
     width: 100%;
 }
 
@@ -1268,7 +1266,7 @@
     margin-bottom: 18px;
 }
 
-.footer-download-app__svg {
+.footer-download-app__img {
     max-width: 100%;
     height: auto;
     padding: 0 8px;
